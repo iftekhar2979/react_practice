@@ -1,6 +1,8 @@
 import './App.css';
+import FetchApi from './component/fetchapi';
 import { default as Increment } from './component/increment';
 import Person from './component/Person';
+
 
 function App() {
   const detail=[{
@@ -37,6 +39,7 @@ function App() {
         detail.map(det=><Person name={det.name} age={det.age} key={det.key} girls={det.nayoka} image={det.img}></Person>)
       }
       <Increment></Increment>
+      <FetchApi></FetchApi>
     </div>
   );
 }
