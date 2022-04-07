@@ -39,7 +39,7 @@ function App() {
         detail.map(det=><Person name={det.name} age={det.age} key={det.key} girls={det.nayoka} image={det.img}></Person>)
       }
       <Increment></Increment>
-      <FetchApi></FetchApi>
+    <FetchApi></FetchApi>
     </div>
   );
 }

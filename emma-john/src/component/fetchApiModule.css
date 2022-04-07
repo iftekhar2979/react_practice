@@ -16,3 +16,19 @@ li{
 .red{
     color: red;
 }
+.white{
+    color: white;
+}
+.box:hover{
+    transform: translateX(30px);
+    transition: 0.5s;
+}
+.blue{
+    color: blue;
+    letter-spacing: 2px;
+
+}
+.gray{
+    color: gray;
+    text-transform: capitalize;
+}

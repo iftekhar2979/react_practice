@@ -1,0 +1,19 @@
+.shop-container{
+    display: flex;
+
+}
+.product-container{
+    height: 100vh;
+    width: 80%;
+  
+    padding: 5px;
+}
+.product-container li{
+    list-style: none;
+}
+.cart-container{
+    padding: 10px;
+}
+.cart-container h3{
+    text-align: center;
+}

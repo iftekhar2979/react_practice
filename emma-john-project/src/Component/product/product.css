@@ -1,0 +1,32 @@
+.card{
+     display: flex;
+     box-sizing: border-box;
+     box-shadow: 2px 2px 5px gray;
+     margin: 5px;
+     border-radius: 5px;
+}
+.img{
+    padding: 10px;
+}
+.details{
+margin: 5px;
+padding: 5px;
+}
+.details small{
+    display: block;
+}
+.details h2{
+    color: rgb(85, 85, 206);
+    cursor: pointer;
+}
+.btn{
+display: block;
+margin-top: 10px;
+border-radius: 3px;
+background-color: teal;
+color: white;
+border: none;
+padding: 5px;
+font-size: 17px;
+cursor: pointer;
+}
